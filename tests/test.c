@@ -6,24 +6,19 @@
 
 #include "../prod.h"
 
-int variable(int a , int b ){
-    return (a + b);
-}
-
-
 
 static void Sum(void **state){
 
-    int a ={1};
-    int b ={2};
-    assert_int_equal(variable( a, b), variable( a, b));
+     int a;
+    int b;
+    assert_int_equal(0, 0);
 
 
 }
-/* A test case that does nothing and succeeds. */
+/* A test case that does nothing and succeeds. - Declaring Tests */
 static void canary_test(void **state) {
     (void) state; /* unused */
-    assert_int_equal(1 + 2, 3);
+    assert_int_equal(0, 0);
 }
 int main(void) {
     const struct CMUnitTest tests[] = {
