@@ -4,18 +4,13 @@
 #include <string.h>
 
 
-int my_greeter12(void) {
-    int number1, number2;
-    int Sum;
+void my_greeter12(int a,int b) {
 
-    printf("1st number:");
-    scanf("%d", number1);
-    printf("2nd number:");
-    scanf("%d", number2);
-    Sum = number1 + number2;
-
-    return (Sum);
-
+    int sum = a+b;
+    printf("Hello World! Your sum is %d\n",sum);
 }
+
+
+
 
 
