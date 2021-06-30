@@ -1,2 +1,2 @@
 
-char* fizzBuzz(int number);
+int score_calc(char *input);
