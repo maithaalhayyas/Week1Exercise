@@ -4,10 +4,13 @@
 #include <string.h>
 
 
-void my_greeter12(int a,int b) {
+int my_greeter12( int a , int b ) {
 
-    int sum = a+b;
-    printf("Hello World! Your sum is %d\n",sum);
+   int  sum = int a + int b;
+
+
+
+
 }
 
 
