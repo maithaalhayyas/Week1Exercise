@@ -2,13 +2,18 @@
 #include "prod.c"
 
 
+int main()
+{
+    int a,b,sum;
 
-int main(void){
 
-    int sum;
-    sum = my_greeter12();
+    printf("Enter 1st Number: ");
+    scanf("%d", &a);
+    printf("Enter 2st Number:  ");
+    scanf("%d", &b);
 
-    printf("HELLO WORLD! Your sum is %d\n",sum);
+    sum = my_greeter12(a,b,sum);
+    printf("Hello World! Your sum is %d\n",sum);
 
-    return 0;
+    return (sum);
 }
