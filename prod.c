@@ -7,9 +7,16 @@
 int my_greeter12() {
 
     int a,b,sum;
-     sum =  a +  b;
 
 
+    printf("Enter 1st Number: ");
+    scanf("%d", &a);
+
+    printf("Enter 2st Number:  ");
+    scanf("%d", &b);
+
+    sum =  a +  b;
+    printf("Hello World! Your sum is %d\n",sum);
 
 
 }
