@@ -4,9 +4,10 @@
 #include <string.h>
 
 
-int my_greeter12( int a , int b ) {
+int my_greeter12() {
 
-   int  sum = int a + int b;
+    int a,b,sum;
+     sum =  a +  b;
 
 
 
