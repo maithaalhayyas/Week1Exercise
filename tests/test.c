@@ -5,16 +5,16 @@
 #include <inttypes.h>
 
 #include "../prod.h"
+#include
 
-int variable(int a , int b ){
-    return (a + b);
-}
 
 static void Sum(void **state){
 
-    int a ={1};
-    int b ={2};
-    assert_int_equal(variable( a, b), variable( a, b));
+    int a;
+    int b;
+
+
+    assert_int_equal(0, 0);
 
 
 }
